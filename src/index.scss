@@ -1,8 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap';
-
+html {
+    position: relative;
+    min-height: 100vh;
+}
 body {
-  margin: 0;
-  padding: 0;
-  padding-top: 3rem;
-  font-family: sans-serif;
+  margin-bottom: 60px;
 }
