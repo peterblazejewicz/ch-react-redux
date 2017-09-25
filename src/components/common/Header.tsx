@@ -14,6 +14,11 @@ const Header: SFC = () => (
           </NavLink>
         </li>
         <li className="nav-item">
+          <NavLink to="/courses" className="nav-link" activeClassName="active">
+            Courses
+          </NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink to="/about" className="nav-link" activeClassName="active">
             About
           </NavLink>

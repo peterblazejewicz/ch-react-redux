@@ -5,6 +5,7 @@ import HomePage from './home/HomePage';
 import AboutPage from './about/AboutPage';
 import Header from './common/Header';
 import Footer from './common/Footer';
+import CoursesPage from './courses/CoursesPage';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <main role="main">
           <Switch>
             <Route path="/home" component={HomePage} />
+            <Route path="/courses" component={CoursesPage} />
             <Route path="/about" component={AboutPage} />
             <Route component={HomePage} />
           </Switch>
